@@ -29,7 +29,7 @@ let end = make_value()
 
 These methods are `self -> Self`, and return the value they received without
 any transformation. This enables them to be placed anywhere in a larger
-expression witohut changing its shape, or causing any semantic changes to the
+expression without changing its shape, or causing any semantic changes to the
 code. The effect function receives a borrow of the tapped value, optionally run
 through the `Borrow`, `AsRef`, or `Deref` view conversions, for the duration of
 its execution.
